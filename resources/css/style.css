@@ -1,0 +1,78 @@
+/* Universal Style */
+* {
+
+}
+
+/* Body */
+body {
+  height: auto;
+  background-color: black;
+  background-image: url("../images/pattern2.jpg");
+}
+
+#main-body {
+  margin: auto;
+  width: 1280px;
+  height: 100%;
+  position: relative;
+  padding-top: 18%;
+  padding-bottom: 18%;
+}
+
+.envelope {
+  position: static;
+  margin: auto;
+  width: 800px;
+  height: 500px;
+  z-index: 0;
+  background-image: url("../images/envelope.png");
+  background-size: cover;
+}
+
+.seal {
+  position: relative;
+  margin: auto;
+  width: 180px;
+  height: 180px;
+  padding-top: 18%;
+}
+
+.seal img {
+  width: 100%;
+  height: auto;
+}
+
+/*.logo {
+  position: absolute;
+  z-index: 1;
+}
+
+.redmail {
+  position: absolute;
+  z-index: 1;
+  transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+}
+
+.redmail:hover{
+  opacity: 0;
+} */
+
+.logo {
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+}
+
+.redmail {
+  position: absolute;
+  z-index: 1;
+}
+
+.logo:hover {
+  opacity: 1;
+}
